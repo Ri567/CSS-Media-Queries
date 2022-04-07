@@ -1,0 +1,100 @@
+/* === === === A N D R O I D === === === */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+{
+	#container
+	{
+		margin: 0 auto;
+		width: 100%;
+		background: #fff;
+	}
+
+	#header
+	{
+		background: #ccc;
+		width: 100%;
+		padding: 40px 40px 40px 40px;
+		font-size: 175%;
+		position: fixed;
+	}
+
+	#header h1 { margin: 0; }
+
+	#navigation
+	{
+		margin-top: 15%;
+		float: left;
+		width: 100%;
+		background: #333;
+	}
+
+	#navigation ul
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+	#navigation ul li
+	{
+		margin-top: 1000%;
+		display: inline;
+	}
+
+	#navigation li a
+	{
+		clear: left;
+		float: left;
+		display: inline;
+		padding: 10px 20px;
+		text-decoration: none;
+		font-size: 205%;
+		width: 96%;
+	}
+
+	#navigation li a:hover { background: #383; }
+
+	#content-container
+	{
+		float: left;
+		width: 100%;
+		background: #FFF;
+	}
+
+	#content
+	{
+		clear: left;
+		float: left;
+		width: 100%;
+		margin: 0 0 0 4%;
+		display: inline;
+	}
+
+	#content h2 { margin: 0; }
+
+	#aside
+	{
+		float: right;
+		width: 33%;
+		padding: 20px 0;
+		margin: 0 3% 0 0;
+		display: none;
+	}
+
+	#aside h3 { margin: 0; }
+
+	#footer
+	{
+		clear: left;
+		background: #ccc;
+		text-align: right;
+		padding: 20px;
+		height: 1%;
+	}
+
+	img{
+		width: 91.5%;
+	}
+
+	p{
+		width: 92%;
+	}
+}
